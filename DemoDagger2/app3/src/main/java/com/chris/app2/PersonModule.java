@@ -12,8 +12,12 @@ public class PersonModule {
     public Person providePerson(String name){
         return new Person(name);
     }
+//    @Provides
+//    public String provideName(){
+//        return "suoyiman";
+//    }
     @Provides
-    public String provideName(){
-        return "suoyiman";
+    public String provideName1(){
+        return "suoyiman1";
     }
 }
