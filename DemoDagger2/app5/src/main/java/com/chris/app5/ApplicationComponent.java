@@ -12,5 +12,5 @@ import dagger.Component;
 @Singleton
 @Component(modules = ApplicationModule.class)
 public interface ApplicationComponent {
-    Gson getGson();// 暴露Gson对象接口
+    Gson getGson();// 暴露Gson对象接口,依赖方式只能获取到暴露出的对象
 }
